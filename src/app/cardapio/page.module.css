@@ -100,7 +100,7 @@ a.secondary {
   background-color: #f48222;
   outline: none;
   border: 0px solid #f48222;
-  border-radius: 8px;
+  border-radius: 4px;
   font-size: medium;
   font-weight: bold;
   display: flex;
@@ -113,9 +113,6 @@ a.secondary {
 
 .menu{
   color: #f48222;
-  padding: 16px;
-  border: 1px solid #f48222;
-  border-radius: 8px;
 }
 
 .footer {
