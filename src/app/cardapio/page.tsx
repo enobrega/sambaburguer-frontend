@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 import { FaWhatsapp } from "react-icons/fa";
 import Link from "next/link";
