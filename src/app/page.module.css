@@ -33,7 +33,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 32px
+  gap: 62px
 }
 
 .main ol {
@@ -109,6 +109,12 @@ a.secondary {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  transition: all ease 0.4s;
+}
+
+.cta:hover {
+  color: #f48222;
+  background-color: white;
 }
 
 .menu{
@@ -116,7 +122,16 @@ a.secondary {
   padding: 16px;
   border: 1px solid #f48222;
   border-radius: 8px;
+  font-weight: bold;
+  transition: all ease 0.4s;
 }
+
+.menu:hover {
+  color: white;
+  background-color: #f48222;
+}
+
+
 
 .footer {
   /* grid-row-start: 3;
